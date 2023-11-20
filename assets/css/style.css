@@ -135,14 +135,14 @@
  }
 
  .nav2 {
-     transform: translate(-3px, 15px) rotate(45deg);
+     transform: translate(-3px, 16px) rotate(45deg);
      background-color: var(--dark-blue) !important;
      position: fixed;
      top: 1.8%;
  }
 
  .nav3 {
-     transform: translate(-3px, -8px) rotate(-45deg);
+     transform: translate(-3px, -2px) rotate(-45deg);
      background-color: var(--light-blue) !important;
      position: fixed;
  }
