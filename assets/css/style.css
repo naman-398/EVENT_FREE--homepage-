@@ -592,6 +592,7 @@
 
  .footer_underline {
      position: relative;
+     transition: all 300ms linear;
  }
 
  .footer_underline::after {
@@ -613,6 +614,11 @@
 
  .footer_underline1 {
      position: relative;
+     transition: all 300ms linear;
+ }
+ .footer_underline1:hover
+ ,.footer_underline:hover{
+    color: var(--light-blue);
  }
 
  .footer_underline1::after {
@@ -622,7 +628,7 @@
      right: 0;
      width: 0%;
      height: 2px;
-     background-color: var(--dark-blue);
+     background-color: var(--light-blue);
      border-radius: 20px;
      transition: all 300ms linear;
  }
